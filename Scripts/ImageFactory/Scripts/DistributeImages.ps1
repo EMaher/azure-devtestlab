@@ -75,8 +75,6 @@ $modulePath = Join-Path $scriptFolder "DistributionHelpers.psm1"
 Import-Module $modulePath
 SelectSubscription $SubscriptionId
 
-SaveProfile
-
 $sourceLab = Find-AzureRmResource -ResourceType 'Microsoft.DevTestLab/labs' | Where-Object { $_.Name -eq $DevTestLabName}
 $labStorageInfo = GetLabStorageInfo $sourceLab
 $sourceImageInfos = GetImageInfosForLab $DevTestLabName
