@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Create a new lab in Azure DevTest Labs with resource group for new lab virtual machines",
+  "description": "This template creates a new DevTest Lab / DTL instance.  The property for which resource group the virtual machines should be created in is set to the specified value.",
+  "summary": "This template creates a new DevTest Lab instance",
+  "githubUsername": "enewman",
+  "dateUpdated": "2019-03-07"
+}
