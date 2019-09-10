@@ -1,0 +1,19 @@
+{
+    "LabServices":[
+        {
+            "LabServiceAccountName":"",
+            "SubscriptionId":"",
+            "LabServicesResourceGroupName":"",
+            "LabName":"",
+            "AADGroups":[
+                {
+                    "GroupDisplayName":""
+                },
+                {
+                    "GroupDisplayName":""
+                }
+            ]
+
+        }
+    ]
+}
